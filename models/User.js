@@ -19,17 +19,14 @@ const UserSchema = Schema({
         trim: true
     },
     subscribed: {
-        type: [{
-            typeMessageId: Schema.Types.ObjectId,
-            typeMessage: String
-        }],
-        required: true
+        type: [String],
+        
     },
     channels: {
-        type: [{
-            channelId: Schema.Types.ObjectId,
-            channel: String
-        }],
+        type: [String],
+    },
+    creationDate: {
+        type: Date,
         required: true
     }
 });

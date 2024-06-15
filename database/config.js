@@ -1,7 +1,6 @@
 const mongoose = require('mongoose');
 
 const dbConnection = async() => {
-
     try {
         
         await mongoose.connect( process.env.DB_CNN );
@@ -12,7 +11,6 @@ const dbConnection = async() => {
         console.log(error);
         throw new Error('Error initializing mongoDB');
     }
-
 }
 
 module.exports = { dbConnection }

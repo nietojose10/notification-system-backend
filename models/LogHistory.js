@@ -8,10 +8,12 @@ const LogHistorySchema = Schema({
     },
     typeMessage: {
         type: String,
+        lowercase: true,
         required: true
     },
     channel:{
         type: String,
+        lowercase: true,
         required: true
     },
     user: {
