@@ -20,10 +20,11 @@ const UserSchema = Schema({
     },
     subscribed: {
         type: [String],
-        
+        lowercase: true,
     },
     channels: {
         type: [String],
+        lowercase: true,
     },
     creationDate: {
         type: Date,

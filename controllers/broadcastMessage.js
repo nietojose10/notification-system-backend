@@ -24,7 +24,7 @@ const broadcastMessage = async( req, res = response ) => {
                 const messageRecorded = new LogHistory({ message: messageData.message, typeMessage: messageData.category, channel: messageData.channel, user: messageData.user, creationDate: messageData.creationDate  });
                 return messageRecorded.save();
             })
-            .then( messageRecorded => console.log(messageRecorded) )
+            .then( messageRecorded => messagesSent.push( messageRecorded ) )
             .catch( error => console.log(error) );
         });
 
@@ -35,7 +35,7 @@ const broadcastMessage = async( req, res = response ) => {
                 const messageRecorded = new LogHistory({ message: messageData.message, typeMessage: messageData.category, channel: messageData.channel, user: messageData.user, creationDate: messageData.creationDate  });
                 return messageRecorded.save();
             })
-            .then( messageRecorded => console.log(messageRecorded) )
+            .then( messageRecorded => messagesSent.push( messageRecorded ) )
             .catch( error => console.log(error) );
         });
 
@@ -46,10 +46,12 @@ const broadcastMessage = async( req, res = response ) => {
                 const messageRecorded = new LogHistory({ message: messageData.message, typeMessage: messageData.category, channel: messageData.channel, user: messageData.user, creationDate: messageData.creationDate  });
                 return messageRecorded.save();
             })
-            .then( messageRecorded => console.log(messageRecorded) )
+            .then( messageRecorded => messagesSent.push( messageRecorded ) )
             .catch( error => console.log(error) );
         });
 
+        //Todo: Create a helper function that counts how many messages have been sent
+        // await messagesSent;
         res.status(200).json({
             ok: true,
             messagesSent: messagesSent
