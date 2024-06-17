@@ -15,7 +15,7 @@ app.use( express.json() );
 
 //paths
 app.use('/api/auth', require('./routes/auth') );
-// app.use('/api/admin',);
+app.use('/api/admin', require('./routes/admin'));
 app.use('/api/broadcast', require('./routes/broadcast') );
 app.use('/api/logHistory', require('./routes/logHistory') );
 

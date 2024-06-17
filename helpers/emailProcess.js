@@ -9,7 +9,7 @@ const handleEmailProcess = ( messageData ) => {
             () => {
                 resolve({ 
                     ok: true,
-                    messageData: messageData
+                    messageData: { ...messageData, creationDate: new Date() }
                  });
             },
             Math.random() * 2000 + 1000
@@ -19,7 +19,7 @@ const handleEmailProcess = ( messageData ) => {
         if ( num === 10 ){
             reject({
                 ok: false,
-                messageData: messageData
+                messageData: { ...messageData, creationDate: new Date() }
             });
         }
 

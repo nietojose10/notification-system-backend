@@ -50,8 +50,6 @@ const broadcastMessage = async( req, res = response ) => {
             .catch( error => console.log(error) );
         });
 
-        //Todo: Create a helper function that counts how many messages have been sent
-        // await messagesSent;
         res.status(200).json({
             ok: true,
             messagesSent: messagesSent
