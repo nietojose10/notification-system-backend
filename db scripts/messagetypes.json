@@ -1,0 +1,19 @@
+[{
+  "_id": {
+    "$oid": "666fae0e34834339f2a3fe80"
+  },
+  "messageType": "Sports",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "666fae2b34834339f2a3fe82"
+  },
+  "messageType": "Finance",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "666fae3234834339f2a3fe84"
+  },
+  "messageType": "Movies",
+  "__v": 0
+}]

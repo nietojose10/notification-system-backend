@@ -1,0 +1,126 @@
+[{
+  "_id": {
+    "$oid": "666d203e3819c898f4f2a43e"
+  },
+  "name": "lucas hernandez",
+  "email": "hernandez.lucas@test.com",
+  "phoneNumber": "99145055",
+  "subscribed": [
+    "finance"
+  ],
+  "channels": [
+    "sms",
+    "push notification"
+  ],
+  "creationDate": {
+    "$date": "2024-06-15T05:01:50.534Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "666d20693819c898f4f2a441"
+  },
+  "name": "armando mendoza",
+  "email": "mendoza.armando@test.com",
+  "phoneNumber": "99145055",
+  "subscribed": [
+    "sports"
+  ],
+  "channels": [
+    "push notification"
+  ],
+  "creationDate": {
+    "$date": "2024-06-15T05:02:33.486Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "666d2cf5860e48279275ad41"
+  },
+  "name": "sean cahill",
+  "email": "cahill.sean@test.com",
+  "phoneNumber": "99145055",
+  "subscribed": [
+    "sports"
+  ],
+  "channels": [
+    "sms"
+  ],
+  "creationDate": {
+    "$date": "2024-06-15T05:56:05.699Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "666e0f6ab0f6f566225a9e90"
+  },
+  "name": "erika sunada",
+  "email": "sunada.erika@test.com",
+  "phoneNumber": "99145055",
+  "subscribed": [
+    "movies"
+  ],
+  "channels": [
+    "email",
+    "sms"
+  ],
+  "creationDate": {
+    "$date": "2024-06-15T22:02:18.801Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "666e1174b0f6f566225a9e9e"
+  },
+  "name": "cristina paz",
+  "email": "paz.cristina@test.com",
+  "phoneNumber": "99145055",
+  "subscribed": [
+    "movies"
+  ],
+  "channels": [
+    "push notification",
+    "email",
+    "sms"
+  ],
+  "creationDate": {
+    "$date": "2024-06-15T22:11:00.161Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "666f5feb6fa876beb65dd001"
+  },
+  "name": "floyd mayweather",
+  "email": "mayweather.floyd@test.com",
+  "phoneNumber": "33445522",
+  "subscribed": [
+    "finance"
+  ],
+  "channels": [
+    "email",
+    "push notification"
+  ],
+  "creationDate": {
+    "$date": "2024-06-16T21:58:02.984Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "666fb7c1df1a5ab67086bc49"
+  },
+  "name": "taylor switf",
+  "email": "switf.taylor@test.com",
+  "phoneNumber": "11223344",
+  "subscribed": [
+    "movies"
+  ],
+  "channels": [
+    "push notification",
+    "email"
+  ],
+  "creationDate": {
+    "$date": "2024-06-17T04:12:49.126Z"
+  },
+  "__v": 0
+}]

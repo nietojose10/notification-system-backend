@@ -1,0 +1,19 @@
+[{
+  "_id": {
+    "$oid": "666faeb3d86a5631f7c4f437"
+  },
+  "notificationType": "SMS",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "666faedad86a5631f7c4f439"
+  },
+  "notificationType": "Email",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "666faee8d86a5631f7c4f43b"
+  },
+  "notificationType": "Push Notification",
+  "__v": 0
+}]
